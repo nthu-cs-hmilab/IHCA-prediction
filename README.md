@@ -115,7 +115,7 @@ In recent years, electronic health records (EHRs) have shown great promise in va
 
 ## Conclusion
 In this study, we developed an explainable multi-modal ML model for mortality and CA prediction in ICU from 13 hours prior to the event. Trained model and in ternally validated in MIMIC-IV and then externally validated in eICU. This model was based on static data, dynamic data and CXR images. During the development process, we compared the results of different fusion modality and different mod els adopted. The study showed that using the multi-modal can improve the final overall performance of the learning system. The fusion modality can provide new insight into complex interactions, the importance of explanatory variable trends, and non linearities. In the future, we will keep attempting other fusion modality and apply the method to other disease prediction tasks.
-
+---
 
 
 

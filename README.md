@@ -24,10 +24,10 @@ IHCA-prediction/
 │   ├── test.ipynb
 ├── preprocess/
 │   ├── .ipynb_checkpoints/
-│   ├── ca
-│   ├── control
-│   ├── dead
-│   └── eicu
+│   ├── ca/
+│   ├── control/
+│   ├── dead/
+│   └── eicu/
 └── README.md
 ```
 

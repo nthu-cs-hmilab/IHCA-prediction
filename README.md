@@ -1,6 +1,35 @@
 # Multi-modal Prediciton of In-Hospital Mortality and In-Hospital Cardiac Arrest in the Intensive Care Unit
 
-## IHCA-prediciton
+## Files tree
+IHCA-prediction/
+├── model/
+│    ├── .ipynb_checkpoints/
+│    ├── cardiac_validation/
+│    ├── cxr/
+│    ├── dead_validation/
+│    ├── early_fution_ca/
+│    ├── joint_fution_dead/
+│    ├── joint_fution_dead/
+│    ├── kears_model/
+│    ├── a test grad-cam_ca.ipynb
+│    ├── a tst grad-cam_dead.ipynb
+│    ├── a_graph.ipynb
+│    ├── copy_img.ipynb
+│    ├── copy_img_v2.ipynb
+│    ├── cut_hour.ipynb
+│    ├── cut_patients.ipynb
+│    ├── heatmap_mimic_ca.ipynb
+│    ├── heatmap_mimic_dead.ipynb
+│    ├── read_img.ipynb
+│    ├── test.ipynb
+├─── preprocess/
+│    ├── .ipynb_checkpoints/
+│    ├── ca
+│    ├── control
+│    ├── dead
+│    └── eicu
+└── README.md
+
 
 ## Introduction
 In recent years, electronic health records (EHRs) have shown great promise in various clinical applications such as outcome prediction or information extraction. In this study, we developed several multi-modal machine learning approaches to predict in-hospital mortality and in-hospital cardiac arrest (IHCA) using EHR data. We used three types of data including time-independent (static) data (e.g., age, gender, and ethnicity), time dependent (dynamic) data (e.g., heart rate, respiratory rate, and peripheral oxygen saturation, and imaging data (chest X-ray (CXR) images). We hypothesized that using different types of patient data and combining them could help to better predict incident mortality and CA. We also validated the multi-modal in an independent cohort and compared the multi-modal to a previous scoring system.
